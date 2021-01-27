@@ -34,7 +34,7 @@ label.setText('<span style="">dsawewwww<span style="">Hello2</span></span>');
 label.adjustSize();
 const label2 = new qt.QLabel(window);
 const pix = new qt.QPixmap();
-pix.load("/home/kusti8/Pictures/test_small.jpg");
+pix.load("check.png");
 pix.scaled(300, 300, qt.AspectRatioMode.IgnoreAspectRatio);
 label2.setPixmap(pix);
 label2.adjustSize();
